@@ -56,5 +56,13 @@ destinationImg.addEventListener('drag', () => {
 });
 
 // 9
+let btn1 = document.querySelector('.btn-1');
+btn1.addEventListener('click', () => {
+    btn1.style.fontSize = '50px';
+});
 
 // 10
+let btn2 = document.querySelector('.btn-2');
+btn2.addEventListener('click', () => {
+    btn2.style.fontSize = '75px';
+});
